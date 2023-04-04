@@ -1,0 +1,13 @@
+p {
+  span {
+    @apply font-bold;
+  }
+}
+form {
+  * {
+    @apply border rounded-[5px] py-2 border-black;
+  }
+  input::placeholder {
+    @apply text-center text-xl text-black;
+  }
+}
